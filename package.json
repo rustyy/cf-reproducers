@@ -1,0 +1,23 @@
+{
+  "name": "cma-proxy-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotenvx run -- tsx test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "contentful-management": "^11.39.1",
+    "https-proxy-agent": "^7.0.5"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.24.5",
+    "@types/node": "^22.9.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
